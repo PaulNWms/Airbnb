@@ -49,7 +49,13 @@ The data does not contain rental history of the properties or any information ab
 - Smaller properties are more popular.
 - A few properties very popular, but most are not.  (Even in real estate, life is not fair...)
 
-## Acknowledgements
+## Authors
 
 * **Paul Williams** - *Initial work* - [GitHub](https://github.com/PaulNWms)
+
+## Acknowledgements
+
+* [Boston Airbnb Open Data](https://www.kaggle.com/airbnb/boston)
+* [Seattle Airbnb Open Data](https://www.kaggle.com/airbnb/seattle)
+
 
