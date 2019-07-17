@@ -9,9 +9,11 @@ On paper, property rental is a great business.  A successful property will gener
 
 Therefore, choosing the right rental property is critical.  This article explores the characteristics of a successful Airbnb property.  The Airbnb data sets available on Kaggle are used as a data source.  The data comes from 2 cities, Boston and Seattle, for a combined total of about 15,000 listings.
 
-We want to follow the business model of successful hosts.  Not every property is suitable for rental, and we don't want to emulate the failures.
+A business really needs to know its _customers_, but this database is mainly about the _rental properties_. Still, we can work with the data available.  We also want to follow the business model of successful hosts.
 
-Of course, there are many concerns beyond just choosing the right property.  Even though it's considered a passive income, renting out rooms can be a lot of work, requires some domain knowledge, and carries liability.  In the hotel business, the property manager is on-call whenever guests are on-site - which is hopefully most of the time.  Of course there is the daily task of cleaning the room and/or turning it for the next guests.  The operation of an Airbnb rental, and all that it entails, is beyond the scope of this article.
+Not every property is suitable for rental, and we don't want to emulate the failures.  Property rental is somewhat of a commodity industry, without a whole lot of room for innovation.  It's actually a valid business plan to keep an eye on the successful hosts and copy what works.  "You can observe a lot by just watching."
+
+Of course, there are many concerns beyond choosing the right property.  Even though it's considered a passive income, renting out rooms can be a lot of work, requires some domain knowledge, and carries liability.  In the hotel business, the property manager is on-call whenever guests are on-site - which is hopefully most of the time.  Of course there is the daily task of cleaning the room and/or turning it for the next guests.  The operation of an Airbnb rental, and all that it entails, is beyond the scope of this article.
 
 It is very important to pick the right property.  The rental history is not available in this database, but given the sample size, we can get a rough sense of the relative popularity by looking at the number of reviews per year.  A few "star" properties receive a lot of reviews, whereas most do not get very many at all.
 
@@ -75,13 +77,7 @@ The number of occupants and number of beds are pretty flat graphs, with the most
 
 ## Conclusion
 
-In this article, we explored property data from the Airbnb data sets available on Kaggle.  We observed that select properties are much more popular than most, using number of reviews as a rough indicator of popularity.  We looked at duration of rental, and found that a 2 night minimum was most common.  We found that most units are located near downtown, but those aren't necessarily the most popular.  type of accomodation and price.
-
-~~In this article, we took a look at how to break into the field of becoming a developer according to Stack Overflow 2017 survey data.~~
-~~We gathered the advice of the masses as to how to break into the field, which showed that the masses leaned toward less expensive methods, which also require a lot of self motivation.~~
-We then looked at the how different methods were related to job satisfaction and salary. This showed that there was a common thread that these two items often move together.
-Finally, we looked at the bias associated with this advice. We found that those who broke into the field by earning a higher formal degree were much more likely to suggest others do the same.
-
+In this article, we explored property data from the Airbnb data sets available on Kaggle.  We observed that select properties are much more popular than most, using number of reviews as a rough indicator of popularity.  We looked at duration of rental, and found that a 2 night minimum was most common.  We found that most units are located near downtown, but also that those aren't necessarily the most popular with customers.  We found the most popular rental is a studio.
 
 ### So do you REALLY you want to rent out that spare room?
 
